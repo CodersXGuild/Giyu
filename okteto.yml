@@ -1,0 +1,6 @@
+version: "4"
+services:
+  Giyu:
+    build: .
+    environment:
+      OK: 80
