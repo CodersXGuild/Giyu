@@ -1,0 +1,7 @@
+from Giyu import FLAMES, THUNDERS, WINDS, WATERS, BEASTS, telethn
+
+IMMUNE_USERS = THUNDERS + BEASTS + WINDS + WATERS + FLAMES
+
+IMMUNE_USERS = (
+    list(THUNDERS) + list(BEASTS) + list(WINDS) + list(WATERS) + list(FLAMES)
+)
