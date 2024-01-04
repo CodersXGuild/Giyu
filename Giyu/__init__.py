@@ -125,7 +125,7 @@ if ENV:
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
-"""else:
+else:
     from Giyu.config import Development as Config
 
     TOKEN = Config.TOKEN
@@ -206,7 +206,7 @@ dispatcher = updater.dispatcher
 print("[INFO]: INITIALIZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
 
-"""
+
 GiyuSession = TelegramClient(StringSession(), API_ID, API_HASH)
 try:
     ubot2.start()
